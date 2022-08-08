@@ -11,3 +11,6 @@
 11. git branch -D <nama branch> = untuk menghapus branch apapun kondisinya
 12. git status = untuk melihat status apakah masih zda yang belum di commit atau sudah selesai semuanya 
 13. git checkout <7 inisial awal dari sebuah log atau history> = untuk menuju pada bagian atau history yang lampau (ini bisa dikombinasikan dengan "git branch <nama branch baru> lalu "git checkout <nama branch baru tersebut>" agar git yang  ada di 7 inisial pertama ini menjadi bracnh baru tersebut)
+14. alias <nama bebas sebagai inisial>="git log --all --decorate --oneline --graph" (maka nama bebas tersebut akan menjadi inisial atau shortcut dari perintah git log --all....ini)
+15. git clone <link github yang menjadi clone> = untuk membuat clone dan menghubungkan repo pada GitHub dengan Git lokal
+
