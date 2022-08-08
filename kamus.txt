@@ -9,5 +9,5 @@
 9. git merge <ama branch> = untuk menggabungkan branch (sebisa mungkin kita berada di branch main dan memasukkan branch lain ke dalamnya)
 10. git branch -d <nama branch> = untuk menghapus branch yang sudah di commit
 11. git branch -D <nama branch> = untuk menghapus branch apapun kondisinya
-12. git status = untuk melihat status apakah masih ada yang belum di commit atau sudah selesai semuanya 
+12. git status = untuk melihat status apakah masih zda yang belum di commit atau sudah selesai semuanya 
 13. git checkout <7 inisial awal dari sebuah log atau history> = untuk menuju pada bagian atau history yang lampau (ini bisa dikombinasikan dengan "git branch <nama branch baru> lalu "git checkout <nama branch baru tersebut>" agar git yang  ada di 7 inisial pertama ini menjadi bracnh baru tersebut)
