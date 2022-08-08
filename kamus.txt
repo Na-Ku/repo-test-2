@@ -1,0 +1,13 @@
+1. git init <nama file / lokasi file> = untuk membuat repository
+2. git add . = untuk menambahkan setiap perubahan pada source code yang dibuat (ini di pakai ketika filenya bertanda "U" / Undmodifide)
+3. git commit -am "penjelasan aksi yang dilakukan" = untuk melakukan commit dan juga memberikan keterangan
+4. git log = untuk melihat history 
+5. git log --all --decorate --oneline --graph = untuk melihat history dalam grafik
+6. git branch = untuk melihat sekarang pointer atau HEAD berada di branch mana
+7. git branch <nama bebas untuk sebuah branch baru> = membuat branch baru
+8. git checkout <nama branch> = untuk berpindah dari suatu bracnh
+9. git merge <ama branch> = untuk menggabungkan branch (sebisa mungkin kita berada di branch main dan memasukkan branch lain ke dalamnya)
+10. git branch -d <nama branch> = untuk menghapus branch yang sudah di commit
+11. git branch -D <nama branch> = untuk menghapus branch apapun kondisinya
+12. git status = untuk melihat status apakah masih ada yang belum di commit atau sudah selesai semuanya 
+13. git checkout <7 inisial awal dari sebuah log atau history> = untuk menuju pada bagian atau history yang lampau (ini bisa dikombinasikan dengan "git branch <nama branch baru> lalu "git checkout <nama branch baru tersebut>" agar git yang  ada di 7 inisial pertama ini menjadi bracnh baru tersebut)
