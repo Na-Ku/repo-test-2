@@ -7,6 +7,7 @@
 7. git branch <nama bebas untuk sebuah branch baru> = membuat branch baru
 8. git checkout <nama branch> = untuk berpindah dari suatu bracnh
 9. git merge <ama branch> = untuk menggabungkan branch (sebisa mungkin kita berada di branch main dan memasukkan branch lain ke dalamnya)
+	- git merge <namaUserGitHubOrangLain>/main = untuk menggabungkan perubahan pada repo milik orang lain ke repo lokal milik kita
 10. git branch -d <nama branch> = untuk menghapus branch yang sudah di commit
 11. git branch -D <nama branch> = untuk menghapus branch apapun kondisinya
 12. git status = untuk melihat status apakah masih zda yang belum di commit atau sudah selesai semuanya 
@@ -19,6 +20,7 @@
 ketika pada GitHub terdapat suatu perubahan yang sama pada repo lokal, maka yang perlu dilakukan adalah dengan memeriksa pada Git dengan cara :
 
 17. git fetch = untuk memeriksa pada repo GitHub apakah terdapat perubahan
+	-git fetch <nama user GitHub orang lain> = untuk memeriksa GitHub milik orang lain
 18. git pull = untuk mengambil perubahan yang terjadi pada repo GitHub 
 
 Setelah di pull, maka penambahan atau perubahan yang terjadi pada GitHub akan masuk ke dalam source code lokal lalu akan muncul Merged Conflik.
@@ -31,4 +33,8 @@ Repo milik orang lain di GitHub --> kita ambil nge-fork ke GitHub sendiri -->mas
 }
 
 19. code . = adalah cara untuk membuka code editor di dalam folder yang sedang di jalankan
+20. git checkout -b <nama branch> = ini untuk menjalankan dua perintah sekaligus yaitu pindah ke branch baru dan sekaligus buat branch baru tersebut jika belum ada
+21. git pull <nama GitHub> = ini adalah untuk melakukan pull request pada GitHub seseorang
+22. git push origin <nama branch cabang> = ini untuk mengupdate repo di GitHub milik kita sendiri (origin adalah nama default pada GitHub milik sendiri)
+23. git push origin --delet <namaBranchCabangYangInginDihapus> = untuk menghapus branch cabang pada GitHub
 
