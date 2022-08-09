@@ -15,7 +15,7 @@
 15. git clone <link github yang menjadi clone> = untuk membuat clone dan menghubungkan repo pada GitHub dengan Git lokal (kasus ini adalah di mana kita membuat repo di GitHub terlebih dahulu lalu diclone pada lokal)
 16. git remote add <nama bebas> <link repo GitHub> = untuk menambahkan repo yang telah dibuat secara lokal terhubung ke server GitHub
 
-{ kasus :
+{ kasus 1 :
 ketika pada GitHub terdapat suatu perubahan yang sama pada repo lokal, maka yang perlu dilakukan adalah dengan memeriksa pada Git dengan cara :
 
 17. git fetch = untuk memeriksa pada repo GitHub apakah terdapat perubahan
@@ -23,5 +23,10 @@ ketika pada GitHub terdapat suatu perubahan yang sama pada repo lokal, maka yang
 
 Setelah di pull, maka penambahan atau perubahan yang terjadi pada GitHub akan masuk ke dalam source code lokal lalu akan muncul Merged Conflik.
 Dengan demikian, barulah kita perlu mengedit / resolve secara manual Merged Conflik tersebut lalu setelah itu di simpan (git add . / git commit) lalu di push (git push)
+}
+
+{ Kasus 2 :
+Repo milik orang lain di GitHub --> kita ambil nge-fork ke GitHub sendiri -->masukkan juga ke lokal --> Up to date antara repo kita di lokal dan GitHub terhadap repo orang lain
+	-- Untuk melihat lagi langka-langkahnya ada di video ke 10
 }
 
