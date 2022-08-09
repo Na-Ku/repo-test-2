@@ -1,0 +1,4 @@
+config.txt
+data/
+*.exe 
+# *.exe tersebut adalah untuk mengatur supaya semua file yang bentuknya adalah .exe itu terdaftar di .gitignore ini dan tidak akan terbawa ke GitHub
