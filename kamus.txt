@@ -30,3 +30,5 @@ Repo milik orang lain di GitHub --> kita ambil nge-fork ke GitHub sendiri -->mas
 	-- Untuk melihat lagi langka-langkahnya ada di video ke 10
 }
 
+19. code . = adalah cara untuk membuka code editor di dalam folder yang sedang di jalankan
+
