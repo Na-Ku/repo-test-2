@@ -1,7 +1,4 @@
 config.txt
 data/
-<<<<<<< HEAD
 *.exe 
 # *.exe tersebut adalah untuk mengatur supaya semua file yang bentuknya adalah .exe itu terdaftar di .gitignore ini dan tidak akan terbawa ke GitHub
-=======
->>>>>>> 057e51e (commit pada error lagi)
