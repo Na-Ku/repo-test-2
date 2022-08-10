@@ -38,4 +38,5 @@ Repo milik orang lain di GitHub --> kita ambil nge-fork ke GitHub sendiri -->mas
 22. git push origin <nama branch cabang> = ini untuk mengupdate repo di GitHub milik kita sendiri (origin adalah nama default pada GitHub milik sendiri)
 23. git push origin --delet <namaBranchCabangYangInginDihapus> = untuk menghapus branch cabang pada GitHub
 24. .gitignore = untuk membuat file yang berisikan daftar file-file apa saja yang sebaiknya tidak dimasukkan ke dalam GitHub (untuk lebih jelasnya atau ada triknya bisa dilihat pada video ke 12)
+25. git rebase <nama branch> = mirip seperti "merge", namun ini untuk merapikan kembali beberapa commit percabangan (untuk lebih jelasnya bisa dilihat pada link berikut : 	https://thesolidsnake.wordpress.com/2014/10/03/belajar-memakai-git-	rebase/#:~:text=Fasilitas%20rebase%20di%20Git%20dapat,commit%20baru%	20sementara%20rebase%20tidak!)
 
